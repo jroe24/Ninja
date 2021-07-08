@@ -29,8 +29,8 @@ ninja1.showStats();
 
 //Super Ninja
 class Sensei extends Ninja {
-    constructor(ninjaName, health, speed, strength, wisdom) {
-        super(ninjaName, 200, 10, 10, wisdom = 10)
+    constructor(name, health, speed, strength, wisdom) {
+        super(name, 200, 10, 10, 10)
         this.wisdom = wisdom;
     }
 
